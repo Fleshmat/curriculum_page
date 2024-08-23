@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#ffffff;
+    display: block;
+}
+
+.center-pls{
+    margin: auto;
+}
+
+.header-sect{
+    align-items: center;
+    display: flex;
+    padding: 0 2.5% 0 2.5%;
+    height: 90px;
+    max-width: 1230px;
+    margin: auto;
+}
+
+.first-half{
+    display: flex;
+    align-items: center;
+}
+
+.subject{
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: #004A87;
+    display: flex;
+    height: calc(1rem + 40px);
+    align-items: center;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 1.3rem;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.logo-img > img {
+    max-height: 40px;
+    max-width: 173px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    padding: 10px;
+    font-size: 16px;
+    width: 15%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff;
+    color: #0056b3;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-bar input {
+    width: 60%;
+}
+
+.profiles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 5fr));
+    gap: 20px;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+.profile-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.profile-card p {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.profile-card button {
+    padding: 10px 35px;
+    background-color: #1271c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons i {
+    width: 25px;
+    margin: 0 10px;
+}
+
+.top-icons{
+    padding: 0 10px 0 15px;
+}
+
+.between{
+    display: block;
+    width: 25px;
+}
