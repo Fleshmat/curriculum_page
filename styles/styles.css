@@ -20,6 +20,13 @@ header {
     height: 90px;
     max-width: 1230px;
     margin: auto;
+    white-space: nowrap;
+}
+
+.name-space{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
 }
 
 .first-half{
@@ -29,6 +36,9 @@ header {
 
 .subject{
     font-size: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 350px;
 }
 
 nav {
@@ -84,8 +94,6 @@ h1 {
 }
 
 .search-container {
-    /* display: flex; */
-    /* justify-content: center; */
     margin-bottom: 20px;
 }
 
