@@ -9,52 +9,70 @@ header {
     display: block;
 }
 
-.center-pls{
-    margin: auto;
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    padding: 50px 0;
 }
 
 .header-sect{
     align-items: center;
+    justify-content:center;
     display: flex;
-    padding: 0 2.5% 0 2.5%;
-    height: 90px;
-    max-width: 1230px;
-    margin: auto;
-    white-space: nowrap;
+    padding: 15px 2.5% 15px 2.5%;
+    /* height: 90px; */
+    /* max-width: 1230px; */
+    /* margin: auto; */
+    flex-wrap: wrap;
+    width: auto;
+    gap: 10px;
+    border-top: 3px solid #1d89ec;
 }
 
 .name-space{
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 200px;
+    /* max-width: 200px; */
+    display: flex;
+    align-items: center;
 }
 
 .first-half{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .subject{
-    font-size: 1.5rem;
-    overflow: hidden;
+    margin: 0;
+    font-size: 1.3rem;
     text-overflow: ellipsis;
-    max-width: 350px;
+    /* white-space: nowrap; */
 }
 
 nav {
     background-color: #004A87;
     display: flex;
-    height: calc(1rem + 40px);
+    /* height: calc(1rem + 40px); */
     align-items: center;
     margin: auto;
+    justify-content: center;
+    padding: 15px 10px 15px 10px;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     font-size: 1.3rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav ul li {
@@ -63,13 +81,19 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 .user-profile {
     display: flex;
     align-items: center;
     margin-left: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .user-profile img {
@@ -136,13 +160,13 @@ h1 {
 
 .profile-card img {
     border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    /* margin-bottom: 15px; */
 }
 
 .profile-card h2 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 10px 0;
 }
 
@@ -160,17 +184,21 @@ h1 {
     cursor: pointer;
 }
 
+.profile-card button:hover {
+    background-color: #3492df;
+}
+
 .social-icons {
     margin-top: 15px;
 }
 
 .social-icons i {
-    width: 25px;
-    margin: 0 10px;
+    margin: 0 5px;
+    font-size: 40px;
 }
 
-.top-icons{
-    padding: 0 10px 0 15px;
+.social-icons i:hover::before {
+    color: #79c3ff;
 }
 
 .between{
